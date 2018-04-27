@@ -5,9 +5,10 @@ body {
 img {
   width: 250px;
 }
-li {
+.title {
   font-size: 20px;
 }
 #direction {
   margin-top: 0px;
 }
+

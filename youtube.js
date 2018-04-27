@@ -17,7 +17,7 @@ function renderResult(list) {
       <br>
       <a class='topicResult' href='https://www.youtube.com/watch?v=${list.id.videoId}' target="_self"> <img src='${list.snippet.thumbnails.default.url}' alt='thumbnail-${list.snippet.title}'></a>
       <p id='direction'>Click the IMG ^^^</p>
-      <p alt='title of thumbnail'>\'${list.snippet.title}\'</p>
+      <p class='title' alt='title of thumbnail'>\'${list.snippet.title}\'</p>
    </div>
   `;}
   
