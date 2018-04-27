@@ -15,9 +15,9 @@ function renderResult(list) {
   return `
     <div>
       <br>
-      <a class='topicResult' href='https://www.youtube.com/watch?v=${list.id.videoId}' target="_self"> <img src='${list.snippet.thumbnails.default.url}'></a>
-      <p id='above'>Click the IMG ^^^</p>
-      <ul><li\'${list.snippet.title}\'</li></ul>
+      <a class='topicResult' href='https://www.youtube.com/watch?v=${list.id.videoId}' target="_self"> <img src='${list.snippet.thumbnails.default.url}' alt='thumbnail-${list.snippet.title}'></a>
+      <p id='direction'>Click the IMG ^^^</p>
+      <p alt='title of thumbnail'>\'${list.snippet.title}\'</p>
    </div>
   `;}
   
